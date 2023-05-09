@@ -1,0 +1,5 @@
+{
+    "require": {
+        "amphp/react-adapter": "^2.1"
+    }
+}
