@@ -108,3 +108,8 @@ function updatedata($job)
 }
 
 routes($_SERVER['PATH_INFO'], $_SERVER['REQUEST_METHOD']);
+
+
+// Start php server: php -S localhost:8080 
+// make curl post request: curl -X POST http://localhost:8080/submit
+// make curl get request: curl http://localhost:8080/checkstatus?jobId=job:3456732
